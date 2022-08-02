@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    background-color: #D4F6CC;
+}
+body{
+    font-family:  'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #D4F6CC;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.container{
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+/*NAVBAR*/
+nav{
+    font-family:  'Open Sans', sans-serif ;
+    background-color: #003865;
+    color: white;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+#logo-box{
+    float: left;
+    padding-top: 0.5rem;
+}
+#logo-box .logo{
+    color: #ff6000;
+    font-weight: 700;
+    font-size: 3rem;
+}
+#input{
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 20px;
+
+}
+#nav-links{
+    float: right;
+}
+#nav-links .nav-item{
+    float: left;
+    margin: 0.5rem;
+}
+#nav-links .nav-link1{
+    font-size: 1.2rem;
+    font-weight: 700;
+    display: block;
+    padding: 1.6rem;
+    letter-spacing: 0.1rem;
+    color:#ff6000;
+    background-color:white;
+    border-radius: 10px;
+}
+#nav-links .nav-link{
+    font-size: 1.2rem;
+    font-weight: 700;
+    display: block;
+    padding: 1.6rem;
+    letter-spacing: 0.1rem;
+    color:black;
+    background-color:white;
+    border-radius: 10px;
+}
+
+#nav-links .nav-link3{
+    font-size: 1.2rem;
+    font-weight: 700;
+    display: block;
+    padding: 1.6rem;
+    letter-spacing: 0.1rem;
+    background-color: gray;
+    color: white;
+    border-radius: 10px;
+}
+
+.nav-menu-text ul a{
+    text-decoration: none;
+    color: black;
+    float: left;
+    margin-left: 28px;
+    font-weight: 600;   
+}
+.main-menu{
+    margin-top: 10px;
+    width: auto;
+    height: 500px;
+    background-color:#003865;
+}
+menu ul a{
+    font-weight: 700;
+   text-decoration: none;
+   float: left;
+   text-align: center;
+   padding-top: 13px;
+   height: 40px;
+   width: 101px;
+   background-color: #ff6000;
+   color: white;
+   margin-top: 20px;
+   border-radius: 10px;
+   margin-left: 60px;
+}
+menu ul a:hover{
+    color: black;
+    background-color: #D4F6CC;
+}
+menu ul img{
+    margin-top: 40px;
+    height: 350px;
+    width: 700px;
+    margin-left: 150px;
+    border-radius: 10px;
+}
+header .urunler-text{
+    font-weight: 700;
+    color: #ff6000;
+    padding-top: 40px;
+    padding-left: 40px;
+    background-color: #D4F6CC;
+    width: auto;
+    height: 850px;
+}
+header .fotograflar img{
+    float: left;
+    padding: 10px;
+    padding-top: 12px;
+    margin-left: 20px;
+    width: 17%;
+    height: 300px;
+    background-color: #D4F6CC;
+}
+footer img{
+width: 800px;
+margin-top: 50px;
+margin-left: 10%;
+}
+@media screen and (min-width:1200px) {
+    html{
+        font-size: 14px;
+    }
+    #logo-box{
+        float: left;
+        padding-top: 0.5rem;
+    }
+    #logo-box .logo{
+        color: #ff6000;
+        font-weight: 700;
+        font-size: 3rem;
+        margin-left: -200px;
+    }
+    #nav-links .nav-link1{
+        font-size: 1.4rem;
+        margin-right: 10px;
+     }
+     #nav-links .nav-link{
+        font-size: 1.4rem;
+        margin-right: 10px;
+     }
+    #nav-links .nav-link3{
+       font-size: 1.4rem;
+       margin-right: -190px;
+    }
+    .nav-menu-text ul a{
+        margin-left: 88px;
+    }
+    menu ul a{
+        margin-left: 190px;
+        padding-top: 10px;
+
+    }
+    menu ul img{
+        width: 1300px;
+        margin-left: 310px;
+    }
+    header .fotograflar img{
+        height: 500px;
+        margin-left: 40px;
+        width: 17%;
+    }
+    footer img{
+        width: 1300px;
+        margin-top: 50px;
+        margin-left: 250px;
+    }
+}
+
+
+
+
+
